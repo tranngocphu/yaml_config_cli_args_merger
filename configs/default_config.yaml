@@ -1,0 +1,12 @@
+model:
+  name: "resnet50"
+  num_class: 1000
+  learning_rate: 0.001
+  optimizer:
+    type: "adam"
+    momentum: 0.9
+
+
+dataset:
+  path: "/data/images"
+  batch_size: 32
